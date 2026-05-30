@@ -9,7 +9,7 @@ from smolagents.mcp_client import MCPClient
 
 mcp_server_params = StdioServerParameters(
     command="npx",
-    args=["-y", "@modelcontextprotocol/server-fetch"],
+    args=["-y", "mcp-fetch"],
 )
 
 QUERIES = [
