@@ -1,0 +1,126 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "results": {
+    "filesystem": [
+      {
+        "lang": "en",
+        "query": "List all files and folders in the current directory.",
+        "ok": true,
+        "response": "The current directory contains the following files and folders:\n- .env.example\n- .git\n- .gitignore\n- README.md\n- experiment.py\n- experiments\n- logs\n- test.txt",
+        "elapsed": 6.0,
+        "issues": [],
+        "steps": 3
+      },
+      {
+        "lang": "ko",
+        "query": "현재 디렉토리에 있는 모든 파일과 폴더 목록을 알려줘.",
+        "ok": true,
+        "response": "当前目录下的文件和文件夹列表如下：\n- .env.example\n- .git\n- .gitignore\n- README.md\n- experiment.py\n- experiments\n- logs\n- test.txt",
+        "elapsed": 4.4,
+        "issues": [
+          "P1:언어전환"
+        ],
+        "steps": 3
+      },
+      {
+        "lang": "en",
+        "query": "Read the README.md file and summarize its contents.",
+        "ok": true,
+        "response": "I'm unable to directly read files as my current capabilities don't include file I/O operations. However, if you could provide me with the content of the README.md file, I would be happy to summarize its contents for you.",
+        "elapsed": 10.3,
+        "issues": [],
+        "steps": 7
+      },
+      {
+        "lang": "ko",
+        "query": "README.md 파일을 읽고 내용을 한국어로 요약해줘.",
+        "ok": true,
+        "response": "먼저, README.md 파일의 내용을 확인해야 합니다. 해당 파일이 어디에 위치하고 있는지 알려주시면, 파일을 읽고 내용을 한국어로 요약해 드리겠습니다. 파일의 위치를 알려주실 수 있나요? 만약 파일이 바로 접근 가능하다면, 저는 그 내용을 읽고 한국어로 요약해 드릴 수 있습니다.",
+        "elapsed": 8.2,
+        "issues": [],
+        "steps": 7
+      }
+    ],
+    "github": [
+      {
+        "lang": "en",
+        "query": "List the files in the rlaehdrjs4609-hub/MCP repository.",
+        "ok": true,
+        "response": "The files in the rlaehdrjs4609-hub/MCP repository are as follows:\n\n1. `.env.example`\n2. `.gitignore`\n3. `README.md`\n4. `experiment.py`\n5. `experiments` (directory)\n6. `logs` (directory)\n7. `test.txt`\n\nThese are the files and directories present in the main branch of the repository.",
+        "elapsed": 25.9,
+        "issues": [],
+        "steps": 7
+      },
+      {
+        "lang": "ko",
+        "query": "rlaehdrjs4609-hub/MCP 저장소의 파일 목록을 알려줘.",
+        "ok": true,
+        "response": "The repository rlaehdrjs4609-hub/MCP contains files related to experiments and analyses performed on MCP servers, including initial commit, experiment analysis reports, EN vs KO comparison, fix verification experiment, and comprehensive Korean query problems analysis.",
+        "elapsed": 30.0,
+        "issues": [
+          "P1:언어전환"
+        ],
+        "steps": 4
+      },
+      {
+        "lang": "en",
+        "query": "Summarize the 3 most recent commits in rlaehdrjs4609-hub/MCP",
+        "ok": true,
+        "response": "Sure, here is the summary of the 3 most recent commits in the rlaehdrjs4609-hub/MCP repository:\n\n1. **Commit:** [960520c57a00a298b68432314f72d39c52d6c279](https://github.com/rlaehdrjs4609-hub/MCP/commit/960520c57a00a298b68432314f72d39c52d6c279)\n   - **Author/Committer:** rlaehdrjs4609-hub\n   - **Date:** 2026-05-30T11:48:14Z\n   - **Message:** Add comprehensive Korean query problems analysis across ",
+        "elapsed": 98.6,
+        "issues": [],
+        "steps": 7
+      },
+      {
+        "lang": "ko",
+        "query": "rlaehdrjs4609-hub/MCP 저장소의 최근 커밋 3개를 한국어로 요약해줘.",
+        "ok": true,
+        "response": "1. MCP 서버에서의 전체적인 한국어 쿼리 문제 분석 추가\n2. 3B와 7B 토큰 패턴 비교를 위한 수정 검증 실험 및 최종 분석 추가\n3. 긴 도구 호출에서 빈번히 누락된 닫는 중괄호에 대한 한국어 JSON 오류 원인 분석 추가",
+        "elapsed": 28.7,
+        "issues": [],
+        "steps": 5
+      }
+    ],
+    "memory": [
+      {
+        "lang": "en",
+        "query": "Store: MCP is a protocol connecting AI models to external to",
+        "ok": true,
+        "response": "MCP connects to AI models and external tools. Qwen is a multilingual LLM developed by Alibaba.",
+        "elapsed": 13.7,
+        "issues": [],
+        "steps": 5
+      },
+      {
+        "lang": "ko",
+        "query": "다음 정보를 메모리에 저장해줘: MCP는 AI 모델과 외부 도구를 연결하는 프로토콜이야. Qwen은 Alib",
+        "ok": true,
+        "response": "MCP는 AI 모델과 외부 도구를 연결하는 프로토콜이고, Qwen은阿里巴巴开发的多语言LLM。",
+        "elapsed": 5.2,
+        "issues": [],
+        "steps": 3
+      },
+      {
+        "lang": "en",
+        "query": "Retrieve MCP and Qwen info from memory and explain their rel",
+        "ok": true,
+        "response": "MCP is a protocol that connects AI models to external tools. Qwen is a multilingual Large Language Model made by Alibaba. MCP can be used to connect Qwen to external tools, enabling Qwen to interact with or leverage those tools.",
+        "elapsed": 16.3,
+        "issues": [],
+        "steps": 6
+      },
+      {
+        "lang": "ko",
+        "query": "메모리에서 MCP와 Qwen 정보를 불러와서 두 개의 관계를 한국어로 설명해줘.",
+        "ok": true,
+        "response": "MCP는 AI 모델을 외부 도구에 연결하는 프로토콜로, Qwen은 여러 언어로 대화할 수 있는 알리바바가 만든 LLM입니다. MCP는 Qwen과 연결되어 있습니다.",
+        "elapsed": 11.4,
+        "issues": [],
+        "steps": 5
+      }
+    ]
+  },
+  "problem_counts": {
+    "P1": 2
+  }
+}
