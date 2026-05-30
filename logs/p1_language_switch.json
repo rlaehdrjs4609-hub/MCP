@@ -1,0 +1,75 @@
+{
+  "query_types": [
+    {
+      "label": "단순_목록",
+      "query": "현재 디렉토리에 있는 파일 목록을 알려줘.",
+      "lang": "영어",
+      "ok": true,
+      "elapsed": 9.3,
+      "resp": "当前目录下的文件列表如下：\n- .env.example\n- .gitignore\n- README.md\n- experiment.py\n- test.txt\n- .git (目录)\n- experiments (目录)\n- logs (目录)"
+    },
+    {
+      "label": "파일_읽기",
+      "query": "README.md 파일 내용을 요약해줘.",
+      "lang": "한국어",
+      "ok": true,
+      "elapsed": 13.8,
+      "resp": "죄송합니다, 현재 README.md 파일의 내용을 확인할 수 없습니다. 파일 경로나 접근 권한이 제한되어 있을 수 있습니다. 다른 방법으로 파일 내용을 제공받으신다면 도와드리겠습니다. 파일 내용을 직접 입력해 주시면 그部分内容我可以帮助你总结README.md文件的内容。请将文件内容提供给我，或者直接粘贴文件中的文本在这里。"
+    },
+    {
+      "label": "한국어_강조",
+      "query": "한국어로만 대답해줘. 파일 목록을 알려줘.",
+      "lang": "한국어",
+      "ok": true,
+      "elapsed": 8.9,
+      "resp": "현재 디렉토리의 파일 목록은 다음과 같습니다.\n\n- .env.example\n- .gitignore\n- README.md\n- experiment.py\n- test.txt\n\n또한 .git, experiments, logs 폴더도 존재합니다."
+    },
+    {
+      "label": "영어혼합",
+      "query": "Please list files. 한국어로 답해줘.",
+      "lang": "한국어",
+      "ok": true,
+      "elapsed": 5.9,
+      "resp": "현재 디렉토리 내의 파일 목록은 다음과 같습니다.\n- .env.example\n- .gitignore\n- README.md\n- experiment.py\n- test.txt\n\n디렉토리 목록은 다음과 같습니다.\n- .git\n- experiments\n- logs"
+    },
+    {
+      "label": "짧은",
+      "query": "파일 목록?",
+      "lang": "영어",
+      "ok": true,
+      "elapsed": 4.5,
+      "resp": "以下是当前目录中的文件列表：\n- .env.example\n- .gitignore\n- README.md\n- experiment.py\n- test.txt\n- .git (目录)\n- experiments (目录)\n- logs (目录)"
+    },
+    {
+      "label": "정중체",
+      "query": "현재 디렉토리의 파일과 폴더 목록을 한국어로 상세히 알려주시겠어요?",
+      "lang": "한국어",
+      "ok": true,
+      "elapsed": 5.5,
+      "resp": "현재 디렉토리에는 다음과 같은 파일과 폴더가 있습니다:\n- .env.example (파일)\n- .git (디렉터리)\n- .gitignore (파일)\n- README.md (파일)\n- experiment.py (파일)\n- experiments (디렉터리)\n- logs (디렉터리)\n- test.txt (파일)"
+    }
+  ],
+  "system_prompts": [
+    {
+      "sp_label": "없음",
+      "lang": "영어",
+      "ok": true,
+      "elapsed": 4.4,
+      "resp": "当前目录下的文件和文件夹列表如下：\n- .env.example\n- .git\n- .gitignore\n- README.md\n- experiment.py\n- experiments\n- logs\n- test.txt"
+    },
+    {
+      "sp_label": "한국어_지시",
+      "lang": "영어",
+      "ok": true,
+      "elapsed": 4.7,
+      "resp": "현재 디렉토리의 파일과 폴더 목록은 다음과 같습니다.\n\n- .env.example\n- .git\n- .gitignore\n- README.md\n- experiment.py\n- experiments\n- logs\n- test.txt"
+    },
+    {
+      "sp_label": "역할_부여",
+      "lang": "영어",
+      "ok": true,
+      "elapsed": 4.7,
+      "resp": "현재 디렉토리에는 다음과 같은 파일과 폴더가 있습니다:\n- .env.example\n- .git\n- .gitignore\n- README.md\n- experiment.py\n- experiments\n- logs\n- test.txt"
+    }
+  ]
+}
