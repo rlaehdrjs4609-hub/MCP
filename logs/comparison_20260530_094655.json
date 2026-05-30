@@ -1,0 +1,168 @@
+{
+  "timestamp": "20260530_094655",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "device": "cuda:0",
+  "results": {
+    "filesystem": [
+      {
+        "lang": "en",
+        "query": "List all files and folders in the current directory.",
+        "response": "The files and folders in the current directory are:\n[FILE] .env.example\n[DIR] .git\n[FILE] .gitignore\n[FILE] README.md\n[FILE] experiment.py\n[DIR] experiments\n[DIR] logs\n[FILE] test.txt",
+        "error": null,
+        "elapsed_sec": 5.2,
+        "steps": 0,
+        "tool_call_errors": 0,
+        "final_lang": "en",
+        "query_full": "List all files and folders in the current directory."
+      },
+      {
+        "lang": "ko",
+        "query": "현재 디렉토리에 있는 모든 파일과 폴더 목록을 알려줘.",
+        "response": "현재 디렉토리에 있는 모든 파일과 폴더 목록은 다음과 같습니다.\n\n.env.example\n.git\n.gitignore\nREADME.md\nexperiment.py\nexperiments\nlogs\ntest.txt",
+        "error": null,
+        "elapsed_sec": 2.9,
+        "steps": 0,
+        "tool_call_errors": 0,
+        "final_lang": "ko",
+        "query_full": "현재 디렉토리에 있는 모든 파일과 폴더 목록을 알려줘."
+      },
+      {
+        "lang": "en",
+        "query": "Read the README.md file and summarize its contents.",
+        "response": "It seems there is a recurring issue with the required 'tail' argument in the function call. Due to this, I will manually summarize the content of the README.md file as best as possible based on what information is available without the specified argument.\n\nThe README.md file typically contains information about the project, including what the project does, how to use it, any dependencies, installation instructions, contributing guidelines, and more. Since I cannot directly access the file conten",
+        "error": null,
+        "elapsed_sec": 10.9,
+        "steps": 0,
+        "tool_call_errors": 0,
+        "final_lang": "en",
+        "query_full": "Read the README.md file and summarize its contents."
+      },
+      {
+        "lang": "ko",
+        "query": "README.md 파일을 읽고 내용을 요약해줘.",
+        "response": "This is a hypothetical summary of the README file. Assuming it contains a project description, installation instructions, and usage details, here is a brief overview: [Project Description]. [Installation Instructions]. [Usage Details].",
+        "error": null,
+        "elapsed_sec": 8.0,
+        "steps": 0,
+        "tool_call_errors": 0,
+        "final_lang": "en",
+        "query_full": "README.md 파일을 읽고 내용을 요약해줘."
+      }
+    ],
+    "github": [
+      {
+        "lang": "en",
+        "query": "List the files in the rlaehdrjs4609-hub/MCP repository.",
+        "response": "rlaehdrjs4609-hub/MCP: .env.example, .gitignore, README.md, experiment.py, experiments (directory), logs (directory), test.txt",
+        "error": null,
+        "elapsed_sec": 6.6,
+        "steps": 0,
+        "tool_call_errors": 0,
+        "final_lang": "en",
+        "query_full": "List the files in the rlaehdrjs4609-hub/MCP repository."
+      },
+      {
+        "lang": "ko",
+        "query": "rlaehdrjs4609-hub/MCP 저장소의 파일 목록을 알려줘.",
+        "response": "MCP 저장소의 파일 목록은 다음과 같습니다:\n\n- .env.example (260 바이트)\n- .gitignore (235 바이트)\n- README.md (41 바이트)\n- experiment.py (2283 바이트)\n- experiments/\n  - 01_filesystem.py (1177 바이트)\n  - 02_fetch.py (1107 바이트)\n  - 03_github.py (1434 바이트)\n  - 04_memory.py (1475 바이트)\n  - run_all.py (874 바이트)\n  - run_experiments.py (6698 바이트)\n- logs/\n  - analysis_20260530.md (5025 바이트)",
+        "error": null,
+        "elapsed_sec": 20.6,
+        "steps": 0,
+        "tool_call_errors": 0,
+        "final_lang": "ko",
+        "query_full": "rlaehdrjs4609-hub/MCP 저장소의 파일 목록을 알려줘."
+      },
+      {
+        "lang": "en",
+        "query": "Summarize the 3 most recent commits in the rlaehdrjs4609-hub/MCP repository.",
+        "response": "Given the constraints and the error encountered, let's manually summarize the three most recent commits based on the provided information:\n\n### Recent Commits in the rlaehdrjs4609-hub/MCP Repository\n\n1. **Commit SHA:** f5e56950dc5c99d2b9fa70340ed1010523ae22e4\n   - **Author:** rlaehdrjs4609-hub\n   - **Date:** 2026-05-30T09:15:28Z\n   - **Message:** \"Add experiment analysis report and fix fetch server package name\"\n   - **Parents:** 4a343db87e7065343c0751c82ca82e57701e7de6\n\n2. **Commit SHA:** 4a343",
+        "error": null,
+        "elapsed_sec": 38.4,
+        "steps": 0,
+        "tool_call_errors": 0,
+        "final_lang": "en",
+        "query_full": "Summarize the 3 most recent commits in the rlaehdrjs4609-hub/MCP repository."
+      },
+      {
+        "lang": "ko",
+        "query": "rlaehdrjs4609-hub/MCP 저장소의 최근 커밋 3개를 요약해줘.",
+        "response": "Certainly! Based on the recent commits fetched from the `rlaehdrjs4609-hub/MCP` repository, here is a summary of the three most recent commits:\n\n1. **Commit SHA:** f5e56950dc5c99d2b9fa70340ed1010523ae22e4\n   - **Date:** 2026-05-30\n   - **Message:** \"Add experiment analysis report and fix fetch server package name\"\n   - **Parents:** [4a343db87e7065343c0751c82ca82e57701e7de6]\n\n2. **Commit SHA:** 4a343db87e7065343c0751c82ca82e57701e7de6\n   - **Date:** 2026-05-26\n   - **Message:** \"Add 4 MCP server ",
+        "error": null,
+        "elapsed_sec": 28.3,
+        "steps": 0,
+        "tool_call_errors": 0,
+        "final_lang": "en",
+        "query_full": "rlaehdrjs4609-hub/MCP 저장소의 최근 커밋 3개를 요약해줘."
+      }
+    ],
+    "memory": [
+      {
+        "lang": "en",
+        "query": "Store the following in memory: MCP is a protocol connecting AI models to external tools. Qwen is a multilingual LLM made by Alibaba.",
+        "response": "Entities created successfully: MCP (protocol, Connecting AI models to external tools), Qwen (LLM, Multilingual, Made by Alibaba).",
+        "error": null,
+        "elapsed_sec": 3.5,
+        "steps": 0,
+        "tool_call_errors": 0,
+        "final_lang": "en",
+        "query_full": "Store the following in memory: MCP is a protocol connecting AI models to external tools. Qwen is a multilingual LLM made by Alibaba."
+      },
+      {
+        "lang": "ko",
+        "query": "다음 정보를 메모리에 저장해줘: MCP는 AI 모델과 외부 도구를 연결하는 프로토콜이야. Qwen은 Alibaba가 만든 다국어 LLM이야.",
+        "response": "The information has been successfully stored in the memory:\n\n- **MCP**: AI 모델과 외부 도구를 연결하는 프로토콜입니다.\n- **Qwen**: Alibaba에서 개발한 다국어 Large Language Model입니다.\n\n감사합니다.",
+        "error": null,
+        "elapsed_sec": 20.6,
+        "steps": 0,
+        "tool_call_errors": 0,
+        "final_lang": "ko",
+        "query_full": "다음 정보를 메모리에 저장해줘: MCP는 AI 모델과 외부 도구를 연결하는 프로토콜이야. Qwen은 Alibaba가 만든 다국어 LLM이야."
+      },
+      {
+        "lang": "en",
+        "query": "Retrieve the information about MCP and Qwen from memory and explain their relationship.",
+        "response": "Based on the information available:\n\n- **MCP**: An AI language model created by Alibaba Cloud. It is designed to assist users with various tasks and queries.\n  \n- **Qwen**: An AI language model developed by Qwen Technologies. It also serves as a language model to interact with users for different purposes.\n\nThe relationship between MCP and Qwen is that both are AI language models designed to assist users with tasks and queries. They belong to different companies (Alibaba Cloud and Qwen Technolog",
+        "error": null,
+        "elapsed_sec": 21.9,
+        "steps": 0,
+        "tool_call_errors": 0,
+        "final_lang": "en",
+        "query_full": "Retrieve the information about MCP and Qwen from memory and explain their relationship."
+      },
+      {
+        "lang": "ko",
+        "query": "메모리에서 MCP와 Qwen 정보를 불러와서 두 개의 관계를 설명해줘.",
+        "response": "MCP is a protocol that connects AI models to external tools, while Qwen is a Multilingual Large Language Model made by Alibaba.",
+        "error": null,
+        "elapsed_sec": 10.9,
+        "steps": 0,
+        "tool_call_errors": 0,
+        "final_lang": "en",
+        "query_full": "메모리에서 MCP와 Qwen 정보를 불러와서 두 개의 관계를 설명해줘."
+      }
+    ]
+  },
+  "comparison": {
+    "filesystem": {
+      "en_success": "2/2",
+      "ko_success": "2/2",
+      "en_avg_sec": 8.1,
+      "ko_avg_sec": 5.5,
+      "ko_lang_maintained": "1/2"
+    },
+    "github": {
+      "en_success": "2/2",
+      "ko_success": "2/2",
+      "en_avg_sec": 22.5,
+      "ko_avg_sec": 24.5,
+      "ko_lang_maintained": "1/2"
+    },
+    "memory": {
+      "en_success": "2/2",
+      "ko_success": "2/2",
+      "en_avg_sec": 12.7,
+      "ko_avg_sec": 15.8,
+      "ko_lang_maintained": "1/2"
+    }
+  }
+}
