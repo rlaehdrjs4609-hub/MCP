@@ -1,0 +1,178 @@
+[
+  {
+    "lang": "en",
+    "obs_len": 10,
+    "obs_bytes": 10,
+    "expected_json_chars": 131,
+    "actual_json_chars": 139,
+    "success": true,
+    "error": null,
+    "literal_newline": true,
+    "has_tool_call_tag": true
+  },
+  {
+    "lang": "en",
+    "obs_len": 20,
+    "obs_bytes": 20,
+    "expected_json_chars": 141,
+    "actual_json_chars": 149,
+    "success": true,
+    "error": null,
+    "literal_newline": true,
+    "has_tool_call_tag": true
+  },
+  {
+    "lang": "en",
+    "obs_len": 30,
+    "obs_bytes": 30,
+    "expected_json_chars": 151,
+    "actual_json_chars": 159,
+    "success": true,
+    "error": null,
+    "literal_newline": true,
+    "has_tool_call_tag": true
+  },
+  {
+    "lang": "en",
+    "obs_len": 40,
+    "obs_bytes": 40,
+    "expected_json_chars": 161,
+    "actual_json_chars": 169,
+    "success": true,
+    "error": null,
+    "literal_newline": true,
+    "has_tool_call_tag": true
+  },
+  {
+    "lang": "en",
+    "obs_len": 50,
+    "obs_bytes": 50,
+    "expected_json_chars": 171,
+    "actual_json_chars": 186,
+    "success": true,
+    "error": null,
+    "literal_newline": true,
+    "has_tool_call_tag": true
+  },
+  {
+    "lang": "en",
+    "obs_len": 60,
+    "obs_bytes": 60,
+    "expected_json_chars": 181,
+    "actual_json_chars": 195,
+    "success": true,
+    "error": null,
+    "literal_newline": true,
+    "has_tool_call_tag": true
+  },
+  {
+    "lang": "en",
+    "obs_len": 70,
+    "obs_bytes": 70,
+    "expected_json_chars": 191,
+    "actual_json_chars": 199,
+    "success": true,
+    "error": null,
+    "literal_newline": true,
+    "has_tool_call_tag": true
+  },
+  {
+    "lang": "en",
+    "obs_len": 80,
+    "obs_bytes": 80,
+    "expected_json_chars": 201,
+    "actual_json_chars": 209,
+    "success": true,
+    "error": null,
+    "literal_newline": true,
+    "has_tool_call_tag": true
+  },
+  {
+    "lang": "ko",
+    "obs_len": 10,
+    "obs_bytes": 30,
+    "expected_json_chars": 131,
+    "actual_json_chars": 133,
+    "success": true,
+    "error": null,
+    "literal_newline": true,
+    "has_tool_call_tag": true
+  },
+  {
+    "lang": "ko",
+    "obs_len": 20,
+    "obs_bytes": 60,
+    "expected_json_chars": 141,
+    "actual_json_chars": 143,
+    "success": true,
+    "error": null,
+    "literal_newline": true,
+    "has_tool_call_tag": true
+  },
+  {
+    "lang": "ko",
+    "obs_len": 30,
+    "obs_bytes": 90,
+    "expected_json_chars": 151,
+    "actual_json_chars": 153,
+    "success": true,
+    "error": null,
+    "literal_newline": true,
+    "has_tool_call_tag": true
+  },
+  {
+    "lang": "ko",
+    "obs_len": 40,
+    "obs_bytes": 120,
+    "expected_json_chars": 161,
+    "actual_json_chars": 163,
+    "success": true,
+    "error": null,
+    "literal_newline": true,
+    "has_tool_call_tag": true
+  },
+  {
+    "lang": "ko",
+    "obs_len": 50,
+    "obs_bytes": 150,
+    "expected_json_chars": 171,
+    "actual_json_chars": 173,
+    "success": true,
+    "error": null,
+    "literal_newline": true,
+    "has_tool_call_tag": true
+  },
+  {
+    "lang": "ko",
+    "obs_len": 60,
+    "obs_bytes": 180,
+    "expected_json_chars": 181,
+    "actual_json_chars": 183,
+    "success": true,
+    "error": null,
+    "literal_newline": true,
+    "has_tool_call_tag": true
+  },
+  {
+    "lang": "ko",
+    "obs_len": 70,
+    "obs_bytes": 210,
+    "expected_json_chars": 191,
+    "actual_json_chars": 193,
+    "success": true,
+    "error": null,
+    "literal_newline": true,
+    "has_tool_call_tag": true
+  },
+  {
+    "lang": "ko",
+    "obs_len": 80,
+    "obs_bytes": 240,
+    "expected_json_chars": 201,
+    "actual_json_chars": 203,
+    "success": true,
+    "error": null,
+    "literal_newline": true,
+    "has_tool_call_tag": true
+  }
+]

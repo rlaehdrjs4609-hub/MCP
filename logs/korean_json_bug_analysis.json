@@ -1,0 +1,82 @@
+[
+  {
+    "label": "영어 - 짧은 텍스트",
+    "raw_length": 654,
+    "has_tool_call": true,
+    "literal_newline_in_json": true,
+    "json_valid": false,
+    "json_error": "Expecting value: line 1 column 1 (char 0)",
+    "json_blob": "system\n{\"name\": \"create_entities\", \"arguments\": {\"entities\": [{\"name\": \"MCP\", \"entityType\": \"protocol\", \"observations\": [\"Store\"]}, {\"name\": \"Qwen\", \"entityType\": \"LLM\", \"observations\": [\"Alibaba\"]}]}}",
+    "char_at_error": "'system\\n{\"n'",
+    "line_count": 2,
+    "line_lengths": [
+      6,
+      194
+    ],
+    "id": "en_short"
+  },
+  {
+    "label": "영어 - 긴 텍스트",
+    "raw_length": 1340,
+    "has_tool_call": false,
+    "literal_newline_in_json": false,
+    "json_valid": false,
+    "json_error": "tool_call 태그 없음",
+    "json_blob": null,
+    "char_at_error": null,
+    "id": "en_long"
+  },
+  {
+    "label": "한국어 - 짧은 텍스트",
+    "raw_length": 1101,
+    "has_tool_call": true,
+    "literal_newline_in_json": false,
+    "json_valid": false,
+    "json_error": "tool_call 태그 없음",
+    "json_blob": null,
+    "char_at_error": null,
+    "id": "ko_short"
+  },
+  {
+    "label": "한국어 - 실험과 동일한 텍스트",
+    "raw_length": 295,
+    "has_tool_call": false,
+    "literal_newline_in_json": false,
+    "json_valid": false,
+    "json_error": "tool_call 태그 없음",
+    "json_blob": null,
+    "char_at_error": null,
+    "id": "ko_medium"
+  },
+  {
+    "label": "한국어 - 긴 텍스트",
+    "raw_length": 1083,
+    "has_tool_call": true,
+    "literal_newline_in_json": false,
+    "json_valid": true,
+    "json_error": null,
+    "json_blob": "{\"name\": \"create_entities\", \"arguments\": {\"entities\": [{\"name\": \"MCP\", \"entityType\": \"StandardProtocol\", \"observations\": [\"Model Context Protocol\"]}, {\"name\": \"Qwen\", \"entityType\": \"LanguageModel\", \"observations\": [\"Alibaba Cloud\", \"Multi-language\", \"Korean\", \"Chinese\", \"English\"]}]}}",
+    "char_at_error": null,
+    "line_count": 1,
+    "line_lengths": [
+      285
+    ],
+    "id": "ko_long"
+  },
+  {
+    "label": "혼합 - 한국어+영어 JSON",
+    "raw_length": 693,
+    "has_tool_call": true,
+    "literal_newline_in_json": true,
+    "json_valid": false,
+    "json_error": "Expecting value: line 1 column 1 (char 0)",
+    "json_blob": "system\n{\"name\": \"create_entities\", \"arguments\": [{\"name\": \"MCP\", \"entityType\": \"Protocol\", \"observations\": [\"is a protocol\"]}, {\"name\": \"Qwen\", \"entityType\": \"LanguageModel\", \"observations\": [\"is an LLM\"]}]}",
+    "char_at_error": "'system\\n{\"n'",
+    "line_count": 2,
+    "line_lengths": [
+      6,
+      200
+    ],
+    "id": "mixed"
+  }
+]
